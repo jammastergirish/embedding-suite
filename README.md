@@ -1,6 +1,6 @@
 # Embedding Suite
 
-[![PyPI](https://img.shields.io/pypi/v/aisuite)](https://pypi.org/project/embedding-suite/)
+[![PyPI](https://img.shields.io/pypi/v/embedding-suite)](https://pypi.org/project/embedding-suite/)
 
 A simple, unified interface for generating embeddings from various providers.
 
