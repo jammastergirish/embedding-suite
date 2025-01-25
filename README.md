@@ -28,6 +28,10 @@ uv add embedding-suite
 
 ## Example Usage
 
+```python
+inputs = ["First sentence", "Second sentence"]
+```
+
 ### OpenAI
 
 ```python
@@ -37,7 +41,7 @@ client = EmbeddingSuiteClient(provider_configs={"openai": {
     "api_key": "XXX"}})
 
 embeddings = client.generate_embeddings(
-    model="openai:text-embedding-3-large", inputs=["Hi", "Hello"])
+    model="openai:text-embedding-3-large", inputs=inputs)
 ```
 
 ### Cohere
