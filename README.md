@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/embedding-suite)](https://pypi.org/project/embedding-suite/)
 
-A simple, unified interface for generating embeddings from various providers.
+A simple, unified interface for generating embeddings from various providers. (This is heavily modeled on Andrew Ng's [AI Suite](https://github.com/andrewyng/aisuite), which does the same thing for Large Language Models.)
 
 ## Installation
 
