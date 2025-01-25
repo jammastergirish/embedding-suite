@@ -6,6 +6,8 @@ A simple, unified interface for generating embeddings from various providers. (T
 
 ## Installation
 
+(You'll need to install the provider's SDK separately.)
+
 ### Pip
 
 ```bash
@@ -24,7 +26,9 @@ poetry add embedding-suite
 uv add embedding-suite
 ```
 
-## Usage
+## Example Usage
+
+### OpenAI
 
 ```python
 from embedding_suite import EmbeddingSuiteClient
@@ -34,4 +38,16 @@ client = EmbeddingSuiteClient(provider_configs={"openai": {
 
 embeddings = client.generate_embeddings(
     model="openai:text-embedding-3-large", inputs=["Hi", "Hello"])
+```
+
+### Cohere
+
+```python
+from embedding_suite import EmbeddingSuiteClient
+
+client = EmbeddingSuiteClient(provider_configs={"cohere": {
+    "api_key": "XXX"}})
+
+embeddings = client.generate_embeddings(
+    model="cohere:embed-english-v3.0", inputs=inputs)
 ```

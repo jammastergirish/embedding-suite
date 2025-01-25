@@ -6,6 +6,5 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "openai>=1.60.1",
     "python-dotenv>=1.0.1",
 ]
