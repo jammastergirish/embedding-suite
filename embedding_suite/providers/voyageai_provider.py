@@ -2,7 +2,7 @@ import voyageai
 from embedding_suite.provider import Provider
 from embedding_suite.utils.config import get_api_key
 
-# https://docs.cohere.com/v2/docs/embeddings
+# https://docs.voyageai.com/docs/embeddings
 
 
 class VoyageaiProvider(Provider):
