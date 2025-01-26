@@ -55,3 +55,16 @@ client = EmbeddingSuiteClient(provider_configs={"cohere": {
 embeddings = client.generate_embeddings(
     model="cohere:embed-english-v3.0", inputs=inputs)
 ```
+
+### VoyageAI
+
+```python
+from embedding_suite import EmbeddingSuiteClient
+
+client = EmbeddingSuiteClient(provider_configs={"voyageai": {
+    "api_key": "XXX"}})
+
+embeddings = client.generate_embeddings(
+    model="voyage:voyage-3", inputs=inputs)
+```
+
