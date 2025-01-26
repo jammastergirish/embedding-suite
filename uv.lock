@@ -3,7 +3,7 @@ requires-python = ">=3.10"
 
 [[package]]
 name = "embedding-suite"
-version = "0.1.4"
+version = "0.1.5"
 source = { virtual = "." }
 dependencies = [
     { name = "python-dotenv" },

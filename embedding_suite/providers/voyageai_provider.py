@@ -15,6 +15,8 @@ class VoyageaiProvider(Provider):
 
         vo = voyageai.Client(api_key=self.api_key)
 
-        result = vo.embed(inputs, model=model, input_type="document")
+        input_type = kwargs.pop("input_type", "document")
+
+        result = vo.embed(inputs, model=model, **kwargs)
 
         return result.embeddings

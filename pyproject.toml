@@ -1,6 +1,6 @@
 [project]
 name = "embedding-suite"
-version = "0.1.4"
+version = "0.1.5"
 description = "A simple, unified interface for generating embeddings from various providers."
 license = {text = "MIT"}
 readme = "README.md"
