@@ -70,3 +70,13 @@ embeddings = client.generate_embeddings(
     model="voyage:voyage-3", inputs=inputs)
 ```
 
+### Sentence Transformers
+
+```python
+from embedding_suite import EmbeddingSuiteClient
+
+client = EmbeddingSuiteClient(provider_configs={"sentencetransformers": {}})
+
+embeddings = client.generate_embeddings(
+    model="sentencetransformers:all-mpnet-base-v2", inputs=inputs)
+```
