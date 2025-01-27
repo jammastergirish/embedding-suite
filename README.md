@@ -2,9 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/embedding-suite)](https://pypi.org/project/embedding-suite/)
 
-[text](https://img.shields.io/github/last-commit/jammastergirish/embedding-suite)
-
-[text](https://img.shields.io/github/stars/jammastergirish/embedding-suite)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jammastergirish/embedding-suite)](https://github.com/jammastergirish/embedding-suite)
 
 A simple, unified interface for generating text embeddings from various providers. (This is heavily modeled on Andrew Ng's [AI Suite](https://github.com/andrewyng/aisuite), which does the same thing for Large Language Models.)
 
