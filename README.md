@@ -80,3 +80,15 @@ client = EmbeddingSuiteClient(provider_configs={"sentencetransformers": {}})
 embeddings = client.generate_embeddings(
     model="sentencetransformers:all-mpnet-base-v2", inputs=inputs)
 ```
+
+### Huggingface
+
+```python
+from embedding_suite import EmbeddingSuiteClient
+
+client = EmbeddingSuiteClient(provider_configs={"huggingface": {
+    "api_key": "XXX"}})
+
+embeddings = client.generate_embeddings(
+    model="huggingface:sentence-transformers/sentence-t5-large", inputs=inputs)
+```
