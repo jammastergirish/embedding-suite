@@ -36,6 +36,8 @@ uv add embedding-suite
 inputs = ["First sentence", "Second sentence"]
 ```
 
+You can serve API keys from your `.env` or explicitly add them as in the below examples. 
+
 ### OpenAI
 
 ```python
