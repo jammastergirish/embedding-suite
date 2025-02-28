@@ -96,3 +96,15 @@ client = EmbeddingSuiteClient(provider_configs={"huggingface": {
 embeddings = client.generate_embeddings(
     model="huggingface:sentence-transformers/sentence-t5-large", inputs=inputs)
 ```
+
+### Mistral
+
+```python
+from embedding_suite import EmbeddingSuiteClient
+
+client = EmbeddingSuiteClient(provider_configs={"mistral": {
+    "api_key": "XXX"}})
+
+embeddings = client.generate_embeddings(
+    model="mistral:mistral-embed", inputs=inputs)
+```
